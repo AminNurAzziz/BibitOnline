@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- ICON -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+</head>
+
+<body>
+    <section>
+        <nav class="navbar  justify-content-sm-around">
+            <a class="navbar-brand" href="#">
+                <div class="bg-trapesium">
+                    <div class="icon d-flex">
+                        <h2><a href="home.html"> <i class="bi px-2 pb-1 m-1 bi-house-door-fill"></i></a></h2>
+                        <h2><a href="shop.html"><i class="bi borderr px-2 pb-1 m-1 bi-shop"></a></i></h2>
+                        <h2><a href="chart.html"><i class="bi px-2 pb-1 m-1 bi-cart3"></a></i></h2>
+                    </div>
+                </div>
+            </a>
+            <!-- menambahkan icon search di sebelah kanan elemen <input> -->
+            <form class="form-inline ">
+                <div class="input-group">
+                    <span class="input-group-text" id="basic-addon1"><i class="bi bi-search"></i></span>
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search"
+                        aria-label="Search bi bi-search">
+                </div>
+
+            </form>
+
+            <div class="navbar-nav">
+                <div class="bg-trapesium-right">
+                    <div class="foto d-flex align-items-center">
+                        <img src="assets/img/fotoprofil.jpeg" width="50" alt="Profile">
+                        <h5> Amin Nur Azziz <span>
+                                <i class="bi bi-caret-down-fill"></i>
+                            </span></h5>
+                        <div class="dropdown-menuu px-3 position-absolute d-flex d-none flex-column ">
+                            <a class="dropdown" href="#">Pengaturan</a>
+                            <a class="dropdown" href="login.html">Logout</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <div class="container-fluid ">
+            <div class="containerr mt-4">
+                <div class="row">
+                    <div class="col-3">
+                        <div class="body-card py-3 px-3">
+                            <!-- Head -->
+                            <div class="title">
+                                <div class="d-flex px-2 justify-content-between">
+                                    <p>Plants</p>
+                                    <p><i class="bi bi-list"></i></p>
+                                </div>
+                            </div>
+                            <div class="choose-plant all">
+                                <!-- Sorting -->
+                                <div class="jenis-tanaman d-flex flex-column d-none">
+                                    <div class="jenis">
+                                        <!-- Membuat elemen a yang akan digunakan sebagai link -->
+                                        <a href="#" id="link-tanaman-hias">Tanaman Hias</a>
+                                        <ul class="d-none list-tanaman-hias">
+                                            <li>Tanaman Hias Bunga</li>
+                                            <li>Tanaman Hias Daun</li>
+                                            <li>Tanaman Hias Indoor</li>
+                                            <li>Tanaman Hias Aquascape</li>
+                                        </ul>
+                                    </div>
+                                    <div class="jenis">
+                                        <a href="#" id="link-tanaman-lain">Tanaman Lainnya</a>
+                                        <ul class="d-none list-tanaman-lain">
+                                            <li>Tanaman Hias Bunga</li>
+                                            <li>Tanaman Hias Daun</li>
+                                            <li>Tanaman Hias Indoor</li>
+                                            <li>Tanaman Hias Aquascape</li>
+                                        </ul>
+                                    </div>
+                                    <div class="jenis">
+                                        <a href="#" id="link-perlengkapan">Perlengkapan Tenaman</a>
+                                        <ul class="d-none list-perlengkapan">
+                                            <li>Tanaman Hias Bunga</li>
+                                            <li>Tanaman Hias Daun</li>
+                                            <li>Tanaman Hias Indoor</li>
+                                            <li>Tanaman Hias Aquascape</li>
+                                    </div>
+                                    <div class="jenis">
+                                        <a href="#" id="link-makanan">Makanan Sehat</a>
+                                        <ul class="d-none list-makanan">
+                                            <li>Tanaman Hias Bunga</li>
+                                            <li>Tanaman Hias Daun</li>
+                                            <li>Tanaman Hias Indoor</li>
+                                            <li>Tanaman Hias Aquascape</li>
+                                    </div>
+                                </div>
+
+                                <!-- Pilihan tanaman -->
+                                <!-- <div class="card-plant d-flex align-items-center">
+                                    <img src="assets/img/Plant1.png" alt="">
+                                    <div class="text">
+                                        <h4>Callisia Repens</h4>
+                                        <h6>Rp.200.000</h6>
+                                    </div>
+                                </div> -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="body-detail-card  py-1 px-3">
+                            <div class="detail-produk">
+                                <div class="row">
+                                    <div class="col-5 text-center">
+                                        <div class="isi d-flex justify-content-center mt-3 mb-5">
+                                            <img src="assets/img/Plant1.png" alt="">
+                                        </div>
+                                        <div class="d-flex justify-content-center">
+                                            <div class="plus-minus minus">-</div>
+                                            <input type="text" value="1" class="input">
+                                            <div class="plus-minus plus">+</div>
+                                        </div>
+                                    </div>
+                                    <div class="col-7 detail-isi-produk ">
+                                        <div class="div save pb-0 pe-3">
+                                            <i class="bi bi-bookmark-fill d-block"></i>
+                                        </div>
+                                        <div class="py-3">
+                                            <h4 class="nama-tanaman">Callisia Repens </h4>
+                                            <div class="deskripsi-tanaman">
+                                            </div>
+                                            <!-- <p>Tanaman abadi membentuk tikar merayap tunas berbunga naik, daun yang
+                                                berdaging dan halus tumbuh lebih kecil ke arah ujung pucuk.</p> -->
+                                            <h4>Tips Perawatan Tanaman</h4>
+                                            <ul class="tips-perawatan">
+                                                <!-- <li>Hindari sinar matahari secara langsung</li>
+                                                <li> Siram secukupnya agar tanah tetap lembab Baik pada suhu 60°F -
+                                                    77°F.</li>
+                                                <li> Memerlukan tingkat kelembapan sekitar 75%</li> -->
+                                            </ul>
+                                            <div class="div mt-3">
+                                                <button type="button" class="btn btn-warning">+ Add to Cart</button>
+                                                <span class="text ms-4">Rp.200.000</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="like px-3 pt-5 pb-0">
+                            <p>You may also like</p>
+                        </div>
+                        <div class="body-detail-card-like mb-4  py-3 px-3">
+                            <div class="detail-produk">
+                                <div class="row">
+                                    <div class="col-6 text-center">
+                                        <div class="card-plant m-0  d-flex align-items-center">
+                                            <img src="assets/img/pot1.png" alt="">
+                                            <div class="text">
+                                                <h4>Callisia Repens</h4>
+                                                <h6>Rp.180.000</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-6 text-center">
+                                        <div class="card-plant m-0 d-flex align-items-center">
+                                            <img src="assets/img/pot2.png" alt="">
+                                            <div class="text">
+                                                <h4>Kyr Terracotta Pot</h4>
+                                                <h6>Rp.200.000</h6>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="body-card body-card-right py-3 px-3">
+                            <div class="choose-plant">
+                                <!-- Head -->
+                                <div class="d-flex px-2 justify-content-between">
+                                    <p>Top Seller</p>
+                                    <p> <i class="bi bi-list"></i></p>
+                                </div>
+                                <!-- Pilihan tanaman -->
+                                <div class="card-plant d-flex align-items-center">
+                                    <img src="assets/img/home1.png" alt="">
+                                    <div class="text">
+                                        <h4>Callisia Repens</h4>
+                                        <h6>Rp.200.000</h6>
+                                    </div>
+                                </div>
+                                <div class="card-plant d-flex align-items-center">
+                                    <img src="assets/img/home2.png" alt="">
+                                    <div class="text">
+                                        <h4>Callisia Repens</h4>
+                                        <h6>Rp.180.000</h6>
+                                    </div>
+                                </div>
+                                <div class="card-plant d-flex align-items-center">
+                                    <img src="assets/img/home3.png" alt="">
+                                    <div class="text">
+                                        <h4>Callisia Repens</h4>
+                                        <h6>Rp.150.000</h6>
+                                    </div>
+                                </div>
+                                <div class="card-plant d-flex align-items-center">
+                                    <img src="assets/img/pot3.png" alt="">
+                                    <div class="text">
+                                        <h4>Callisia Repens</h4>
+                                        <h6>Rp.107.000</h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <script>
+        var link = document.querySelector('.bi-caret-down-fill');
+        link.addEventListener('click', function () {
+            var arrB = document.querySelector('.dropdown-menuu');
+            arrB.classList.toggle('d-none');
+        });
+    </script>
+    <!-- Menambahkan elemen div yang berisi daftar tanaman hias ke dalam DOM saat link diklik -->
+    <script>
+        document.getElementById('link-tanaman-hias').addEventListener('click', function () {
+            // Mencari elemen ul yang akan diubah kelasnya
+            var ul = document.querySelector('.list-tanaman-hias');
+            // Menghilangkan kelas d-none pada elemen ul
+            ul.classList.toggle('d-none');
+        });
+        document.getElementById('link-tanaman-lain').addEventListener('click', function () {
+            var ul = document.querySelector('.list-tanaman-lain');
+            // Menghilangkan kelas d-none pada elemen ul
+            ul.classList.toggle('d-none');
+        });
+        document.getElementById('link-perlengkapan').addEventListener('click', function () {
+            var ul = document.querySelector('.list-perlengkapan');
+            // Menghilangkan kelas d-none pada elemen ul
+            ul.classList.toggle('d-none');
+        });
+        document.getElementById('link-makanan').addEventListener('click', function () {
+            var ul = document.querySelector('.list-makanan');
+            // Menghilangkan kelas d-none pada elemen ul
+            ul.classList.toggle('d-none');
+        });
+        var link = document.querySelector('.bi-list');
+        link.addEventListener('click', function () {
+            // Mencari elemen ul dan elemen div yang akan diubah kelasnya
+            var ul = document.querySelector('.jenis-tanaman');
+            var choosePlant = document.querySelector('.choose-plant');
+            var card = choosePlant.querySelectorAll('.card-plant');
+
+            ul.classList.toggle('d-none');
+            // Menampilkan/menyembunyikan kelas d-none pada elemen ul dan elemen div
+            card.forEach(function (cards) {
+                cards.classList.toggle('d-none');
+            });
+
+            // if (!card.classList.contains('d-none')) {
+            //     card.classList.add('d-none');
+            //     console.log('d-none di tamabhkan')
+            // } else {
+            //     console.log('d-none di hapus')
+            //     card.classList.toggle('d-none');
+            // }
+
+        });
+    </script>
+    <script>
+        const home = document.querySelector('.bi-house-door-fill');
+        const shop = document.querySelector('.bi-shop');
+        const chart = document.querySelector('.cart3');
+
+        home.addEventListener('click', function () {
+            // Hapus kelas "borderr" dari tombol "Sign In"
+            if (signInBtn.classList.contains('borderr')) {
+                signInBtn.classList.remove('borderr');
+            }
+            // Tambahkan kelas "borderr" pada tombol "Sign Up"
+            signUpBtn.classList.add('borderr');
+
+        });
+
+        shop.addEventListener('click', function () {
+            // Hapus kelas "borderr" dari tombol "Sign Up"
+            if (signUpBtn.classList.contains('borderr')) {
+                signUpBtn.classList.remove('borderr');
+            }
+            // Tambahkan kelas "borderr" pada tombol "Sign In"
+            signInBtn.classList.add('borderr');
+
+        });
+    </script>
+    <script src="assets/js/data.js"></script>
+
+    <!-- Bootstrap JavaScript -->
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
