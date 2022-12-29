@@ -1,0 +1,232 @@
+.container-fluid {
+    background-color: #F7F6F5;
+}
+
+.cart h5 {
+    font-size: 26px;
+    font-weight: 400;
+    margin-top: 40px;
+}
+
+.box {
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    margin-top: 25px;
+}
+
+.box img {
+    background-color: #F7F6F5;
+    border-radius: 20px;
+}
+
+.text {
+    line-height: 8px;
+    margin-left: 25px;
+    color: #363636;
+    font-weight: 400;
+}
+
+.plus-minus {
+    padding: 0 10px 0 10px;
+    background-color: #707070;
+    font-size: 20px;
+    cursor: pointer;
+    color: white;
+    border-radius: 40px;
+}
+
+.plus-minus:hover {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.pluss input[type="text"] {
+    /* menghilangkan style default */
+    width: 40px;
+    text-align: center;
+    border: none;
+    font-size: 20px;
+}
+
+.pluss {
+    margin-left: 100px;
+}
+
+.harga {
+    color: #000000;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.pluss {
+    margin-right: 40px;
+}
+
+.box {
+    width: 93%;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.x {
+    position: absolute;
+    left: 733px;
+    color: black;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.x:hover {
+    cursor: pointer;
+}
+
+.fixed-bottom {
+    align-items: center;
+    width: 56%;
+    background-color: #F7F6F5;
+
+}
+
+.box-total {
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.card-right {
+    padding: 0px 80px 0px 40px;
+    background-color: #C3E5D4;
+    width: 450px;
+    height: 100vh;
+    margin-left: 70%;
+    box-shadow: -10px 4px 15px rgba(0, 0, 0, 0.25);
+    color: #638481;
+    font-weight: 400;
+    font-size: 32px;
+}
+
+.form-control {
+    border: none;
+}
+
+.form-control {
+    border: none;
+    border-bottom: 2px solid #638481;
+    border-radius: 0px;
+    font-family: Arial;
+    font-size: 16px;
+    /* font-weight: 400; */
+    line-height: 16px;
+    color: #638482;
+    /* letter-spacing: 0em; */
+    /* text-align: left; */
+}
+
+.form-control:focus {
+    color: rgb(33, 37, 41);
+    border-color: black;
+    outline: 0px;
+    box-shadow: none;
+}
+
+form {
+    font-family: Arial;
+    font-size: 18px;
+    font-weight: 100;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #638482;
+}
+
+input[type=email] {
+    background-color: #C3E5D4;
+}
+
+input[type=email]:focus {
+    background-color: #C3E5D4;
+}
+
+input[type=password]:focus {
+    background-color: #C3E5D4;
+}
+
+input[type=password] {
+    background-color: #C3E5D4;
+}
+
+
+.username input[type=text] {
+    background-color: #C3E5D4;
+}
+
+.bi-caret-right-fill {
+    font-size: 40px;
+    margin-left: -10px;
+}
+
+.arrow-pembayaran {
+    margin-top: 40px;
+}
+
+.arrow-data-diri {
+    margin-top: 110px;
+}
+
+.arrow-alamat {
+    margin-top: 110px;
+}
+
+.img-pay img {
+    width: 45px;
+}
+
+.form-alamat {
+    /* mengatur animasi masuk dengan slide dari kiri */
+    animation: slideInRight 0.5s ease;
+}
+
+.form-pembayaran {
+    /* mengatur animasi masuk dengan slide dari kiri */
+    animation: slideInRight 0.5s ease;
+}
+
+@keyframes slideInRight {
+    from {
+        transform: translateX(100%);
+    }
+
+    to {
+        transform: translateX(0%);
+    }
+}
+
+.bi-caret-right-fill:hover {
+    cursor: pointer;
+}
+
+.tag img {
+    width: 40px;
+    right: 405px;
+    top: 50px;
+}
+
+.arrow-back img {
+    margin-left: 30px;
+    width: 25px;
+    margin-right: 30px;
+}
+
+.arrow-back:hover {
+    cursor: pointer;
+}
+
+a {
+    color: #363636;
+    text-decoration: none;
+}
+
+a:hover {
+    color: black;
+}

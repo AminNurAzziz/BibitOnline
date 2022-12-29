@@ -1,0 +1,498 @@
+.content h1 {
+    color: #638482;
+    font-weight: 700;
+    font-size: 50px;
+}
+
+.content span {
+    color: #2B865A;
+}
+
+.box {
+    margin-top: 70px;
+    background-color: #FFFFFF;
+    color: #638481;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 44px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 75%;
+    border-radius: 15px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.icon-sosmed {
+    margin-top: 120px;
+    /* background-color: #2B865A; */
+}
+
+.boxx {
+    background-color: #FFFFFF;
+    border-radius: 20px;
+}
+
+.boxx {
+    transition: width 0.5s ease-in-out;
+}
+
+.boxx {
+    background-size: cover;
+}
+
+.boxx:hover {
+    cursor: pointer;
+}
+
+.dropdown-menuu {
+    background-color: #FFFFFF;
+    border-radius: 11px;
+    top: 40px;
+    right: 0px;
+    padding: 3px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border: none;
+    color: #638481;
+    font-weight: 500;
+}
+
+.dropdown-menuu a:hover {
+    color: black;
+}
+
+.bi-caret-down-fill:hover {
+    cursor: pointer;
+}
+
+/*  */
+
+/* NAVBAR */
+@media (min-width: 720px) {
+
+
+    .title {
+        margin-top: -20px;
+    }
+
+    .isi-profil {
+        width: 65%;
+        margin: auto;
+    }
+
+    .all-produk {
+        background-image: linear-gradient(180deg,
+                hsl(0deg 0% 100%) 0%,
+                hsl(30deg 11% 100%) 24%,
+                hsl(30deg 11% 99%) 38%,
+                hsl(30deg 11% 99%) 49%,
+                hsl(30deg 11% 98%) 58%,
+                hsl(30deg 11% 98%) 67%,
+                hsl(30deg 11% 98%) 75%,
+                hsl(30deg 11% 97%) 82%,
+                hsl(30deg 11% 97%) 90%,
+                hsl(30deg 11% 96%) 100%);
+    }
+
+    /* page 2 */
+    .all-produk-2 {
+        margin-top: 130px;
+    }
+
+    .produkku {
+        width: 80%;
+        margin: auto;
+    }
+
+    .produkku .card {
+        width: 15rem;
+    }
+
+    /* rcomend */
+    .recomended {
+        color: #cdd6d6;
+        font-weight: bold;
+
+    }
+
+    .card-body .btn:hover {
+        animation: none;
+        transform: scale(1.1);
+        box-shadow: 0 0 5px 1px #eeeeee;
+        color: #2B865A;
+    }
+
+
+
+    .card-index:hover .card-img-top {
+        transform: scale(1.1);
+    }
+
+    .card-index .card-img-top {
+        transition: all 1s;
+    }
+
+    .card-recomended .card:nth-child(2) {
+        transform: scale(1.1);
+    }
+
+    .card-recomended .card:nth-child(2) {
+        background: linear-gradient(124.3deg, #e7e7e7 7.24%, rgba(255, 203, 91, 0) 170.52%), #FFFFFF;
+    }
+
+    /* Galeri*/
+    .carousel-item img {
+        width: 250px;
+    }
+
+    /* page 3 */
+    .image-tim {
+        width: 90%;
+    }
+
+    .profil-company {
+        height: 450px;
+    }
+
+    .keterangan {
+        font-size: 18px;
+    }
+
+    .dropdown-menu {
+        margin-left: -65px;
+    }
+
+
+}
+
+/* general */
+/* Produk */
+.title-produk h2 {
+    color: #2B865A;
+    font-weight: bold;
+}
+
+.title-produk hr {
+    border: solid 1px #2B865A;
+    width: 10%;
+    display: block;
+    margin: auto;
+    border-radius: 90%;
+}
+
+.about h1 {
+    background-color: white;
+}
+
+.galeri hr {
+    border: solid 1px white;
+    width: 10%;
+    margin: auto;
+}
+
+.produk-recomended h2 {
+    text-shadow: 1px 1px 3px #ffe6b1;
+}
+
+
+.produk-recomended hr {
+    border: solid 1px #2B865A;
+    width: 15%;
+    border-radius: 90%;
+    display: block;
+    margin: auto;
+}
+
+.card-produk {
+    width: 100%;
+    margin: auto;
+}
+
+.produk .card-index:nth-child(1) {
+    background: linear-gradient(124.3deg, #e7e7e7 7.24%, rgba(255, 203, 91, 0) 170.52%), #FFFFFF;
+}
+
+.card {
+    background: white;
+    overflow: hidden;
+}
+
+/* Responsive */
+@media (max-width: 720px) {
+    .navbar img {
+        width: 40px;
+    }
+
+    .navbar {
+        background-color: rgb(255, 255, 255);
+    }
+
+    .nav-link:hover {
+        color: white;
+    }
+
+    .navbar {
+        color: black;
+    }
+
+
+    .landing-page img {
+        margin-top: -15px;
+        width: 240px;
+    }
+
+    .title {
+        margin-top: 20px;
+    }
+
+    .title h2 {
+        font-size: 20px;
+    }
+
+    .title h5 {
+        font-size: 12px;
+    }
+
+    .keterangan {
+        font-size: 18px;
+    }
+
+    .isi-profil {
+        width: 85%;
+        margin: auto;
+    }
+
+    .title-produk {
+        width: 80%;
+        margin: auto;
+    }
+
+    .selengkapnya,
+    .btn-lg {
+        font-size: 12px;
+    }
+
+    .carousel-item img {
+        width: 150px;
+        margin: 3px 1px;
+    }
+
+    .description h1 {
+        margin-top: 30px;
+        font-size: 25px;
+        font-weight: bold;
+    }
+
+    .description p,
+    .galeri h2 {
+        font-size: 16px;
+    }
+
+    .kontak,
+    .social-media {
+        font-size: 13px;
+    }
+
+    .social-media svg {
+        width: 20px;
+        margin-left: 20px;
+    }
+
+
+    .all-produk-2 {
+        margin-top: 80px;
+    }
+
+    .image-tim {
+        width: 70%;
+    }
+
+    .img {
+        margin-bottom: 10px;
+    }
+
+    .produkku {
+        width: 90%;
+        margin: auto;
+    }
+
+    .produkku .card {
+        width: 90%;
+        margin: 0px;
+    }
+
+    .produkku .card-body h3 {
+        font-size: 18px;
+    }
+
+    .produkku .card-body p {
+        font-size: 14px;
+    }
+
+
+    .title h5 {
+        font-size: 20px;
+    }
+
+    .quick a {
+        display: block;
+        font-size: 15px;
+    }
+
+    .title-produk hr {
+        border: solid 1px #2B865A;
+        width: 100%;
+        display: block;
+        margin: auto;
+        border-radius: 90%;
+    }
+
+    .our-tim hr {
+        border: solid 1px #2B865A;
+        width: 35%;
+        display: block;
+        margin: auto;
+        border-radius: 90%;
+    }
+}
+
+
+/* general */
+.btn-outline-warning {
+    background-color: #feffdb;
+}
+
+.btn:hover {
+    color: #feffdb;
+    animation: none;
+}
+
+.btn-animation {
+    animation: shake 0.5s ease-in infinite;
+}
+
+/* SHAKE ANIMATION */
+@keyframes shake {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    25% {
+        transform: rotate(5deg);
+    }
+
+    50% {
+        transform: rotate(0eg);
+    }
+
+    75% {
+        transform: rotate(-5deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+/* SHAPE BACKGROUND */
+.shape {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.shape svg {
+    position: relative;
+    display: block;
+    width: calc(300% + 1.3px);
+    height: 200px;
+}
+
+.shape .shape-fill {
+    fill: #fdffbf;
+}
+
+/* profil page 1*/
+.profil-company {
+    background: linear-gradient(180deg, rgba(27, 28, 30, 0.8) 0%, rgba(27, 28, 30, 0.89) 100%),
+        url('../img/menanam.jpg') repeat center bottom fixed;
+    color: white;
+}
+
+/* Galeri */
+.galeri {
+    background: linear-gradient(180deg, rgba(27, 28, 30, 0.8) 0%, rgba(27, 28, 30, 0.89) 100%),
+        url('../img/menanam.jpg') repeat center bottom fixed;
+    color: white;
+}
+
+/* FOOTER */
+.copyright {
+    background-color: #0f0f0f;
+    color: white;
+}
+
+/* list */
+ul li {
+    list-style: none;
+}
+
+/* /* ANIMATION SCROLL */
+.reveal {
+    position: relative;
+    transform: translateY(50px);
+    opacity: 0;
+    transition: 1s all ease;
+}
+
+.reveal.active {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+.social-media a {
+    color: black;
+    list-style: none;
+}
+
+
+
+.quick-collection {
+    margin-left: 13px;
+}
+
+.footer ul li,
+.footer a {
+    margin-left: -12px;
+    color: black;
+    text-decoration: none;
+}
+
+.selanjutnya b,
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.selanjutnya b,
+a:hover {
+    color: rgb(71, 71, 71);
+}
+
+.title h1,
+.title h5 {
+    color: white;
+}
+
+.btn {
+    background-color: #eeeeee;
+    font-weight: bold;
+}
+
+.up:hover {
+    transition: 0.3s;
+    transform: translateY(-10px);
+    cursor: pointer;
+}

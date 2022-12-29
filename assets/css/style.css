@@ -19,6 +19,14 @@ body {
     border-radius: 15px;
 }
 
+input[type=search] {
+    box-shadow: 4px 8px 15px rgba(0, 0, 0, 0.25);
+}
+
+.input-group-text {
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.25);
+}
+
 .bg-trapesium {
     width: 280px;
     height: 60px;
@@ -27,14 +35,19 @@ body {
     transform: skew(-17deg);
     position: relative;
     margin: 0px 15px 0px 15px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.25);
 }
 
 .icon {
     color: white;
     position: absolute;
     top: 15%;
-    left: 7%;
+    left: 8%;
     transform: skew(17deg);
+}
+
+.icon a {
+    color: white !important;
 }
 
 a {
@@ -43,12 +56,14 @@ a {
 }
 
 .icon a:hover {
+    padding-bottom: 4px;
     color: #e4e4e4;
     width: 5px;
-    border-bottom: #ececec solid 3px;
+    border-bottom: white solid 3px;
 }
 
 .bg-trapesium-right {
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.25);
     transform: skew(-17deg);
     position: relative;
     background-color: #36A870;
@@ -78,8 +93,17 @@ a {
     margin: auto;
 }
 
+.all {
+    height: 570px;
+}
+
+.body-card {
+    box-shadow: 5px 0px 15px rgba(0, 0, 0, 0.25);
+}
+
 .choose-plant,
-.title {
+.title,
+.like {
     color: #638481;
 }
 
@@ -90,18 +114,25 @@ a {
 
 .body-detail-card {
     border-radius: 30px;
-    /* height: 350px; */
+    height: 425px;
     background-color: white;
     width: 95%;
     margin: auto;
-    /* overflow: auto; */
-    /* padding-bottom: 300px; */
+    box-shadow: 0px 12px 15px rgba(0, 0, 0, 0.25);
 }
 
-.card-plant:not(:nth-child(1)) {
-    margin-top: 20px;
+.body-detail-card-like {
+    border-radius: 30px;
+    background-color: white;
+    width: 95%;
+    margin-top: -5px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.25);
+    color: #638481;
 }
 
+.card-plant:not(:nth-child(2)) {
+    margin-top: 28px;
+}
 
 .card-plant img {
     border-radius: 20px;
@@ -113,9 +144,18 @@ a {
 }
 
 .choose-plant .d-flex p,
-.title .d-flex p {
+.title .d-flex p,
+.like {
     font-size: 20px;
     font-weight: 500;
+}
+
+.like {
+    margin-left: 5px;
+}
+
+.card-like {
+    margin-top: -10px;
 }
 
 .text h4 {
@@ -200,4 +240,72 @@ input[type="text"] {
 
 .warna-kuning {
     color: #fad400 !important;
+}
+
+.jenis {
+    margin-top: 10px;
+    font-size: 18px;
+    border-bottom: 1px solid #e2e2e2;
+}
+
+.jenis a {
+    font-weight: bold;
+}
+
+.jenis a:hover {
+    color: #36A870;
+}
+
+.list-tanaman-hias,
+.list-tanaman-lain,
+.list-perlengkapan,
+.list-makanan {
+    border-radius: 10px;
+    margin-left: 20px;
+    /* width: 80%; */
+    background-color: #e4e4e4;
+    padding: 5px;
+}
+
+/* Menghilangkan indentasi pada elemen ul */
+ul,
+li {
+    /* margin-left: 10px; */
+    margin: 0px 0px 0px 10px;
+    padding: 0;
+    list-style: none;
+}
+
+.bi-list:hover {
+    cursor: pointer;
+}
+
+
+.col-3 .body-card-right {
+    box-shadow: -5px 0px 15px rgba(0, 0, 0, 0.25);
+}
+
+.borderr {
+    border-bottom: white solid 3px;
+    cursor: pointer;
+}
+
+.dropdown-menuu {
+    background-color: #FFFFFF;
+    border-radius: 11px;
+    top: 40px;
+    right: 0px;
+    padding: 3px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border: none;
+    color: #638481;
+    font-weight: 500;
+}
+
+.dropdown-menuu a:hover {
+    color: black;
+}
+
+.bi-caret-down-fill:hover {
+    cursor: pointer;
 }
